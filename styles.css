@@ -1,0 +1,118 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.navbar .brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar .nav {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .nav li {
+    margin: 0 15px;
+}
+
+.navbar .nav li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.navbar .nav li a.active,
+.navbar .nav li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+/* Header */
+.header {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.header p {
+    font-size: 18px;
+}
+
+/* Content */
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.content-item {
+    flex: 1;
+    margin: 10px;
+}
+
+.content-item img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+/* Tricks Section */
+.tricks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.trick {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
