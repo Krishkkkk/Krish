@@ -2,66 +2,96 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Magic - Home</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Krish Of Spades - Home</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
-	<link rel="icon" href="logo.png">
-
+    <link rel="icon" href="logo.png">
 </head>
 <body>
     <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-	<div class="navbar">
-		<a href="index.html"><img src = "logo.png" style="hieght: 55px; width:55px"></a>
-     </div>
-		
-		<a class="navbar-brand" href="index.html">Krish Of Spades</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
-				<li class="nav-item">
-                    <a class="nav-link" href="reveal.html">Reveal</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="tricks.html">Tricks</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="about.html">About</a>
-                </li>
-            </ul>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="logo.png" alt="Krish Of Spades Logo" style="height: 50px; width: 50px;">
+                <span class="ml-2">Krish Of Spades</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="reveal.html">Reveal</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tricks.html">Tricks</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
 
-    <!-- Home Content -->
-    <header class="text-center py-5">
-        <h1><b>Welcome to the World of Magic!</h1>
-        <p>Discover the secrets behind the most amazing magic.</b></p>
-    </header>
-	<hr>
-    <section class="container my-5">
+    <!-- Hero Section -->
+    <section class="jumbotron text-center bg-dark text-white mb-0">
+        <div class="container">
+            <h1 class="display-4">Welcome to Krish Of Spades</h1><br/>
+            <p class="lead">Discover the world of magic and illusions, with a touch of sleight of hand. Ready to be amazed?</p>
+            <a href="reveal.html" class="btn btn-primary btn-lg">Click Here</a>
+        </div>
+    </section>
+
+    <!-- Cards Section -->
+    <section class="container py-5">
+        <h2 class="text-center mb-5">Explore My Magic Acts</h2>
         <div class="row">
-           
-            <div class="col-md-6">
-                <h2>What is Magic?</h2>
-                <p>Magic, also known as prestidigitation or close-up magic, is the art of performing tricks and illusions using manual dexterity and skillful manipulation of small objects like cards, coins, or other items. It involves techniques such as palming (concealing objects in the hand), switching (replacing one object with another), false shuffling or cutting (giving the illusion of mixing cards without altering their order), misdirection (distracting the audience from secret moves), and steals and loads (secretly taking or placing objects). Sleight of hand relies on precision, speed, and smooth execution to deceive the audience, often performed up close to create a personal and impressive magical experience.</p>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="cardmagic.jpg" class="card-img-top" alt="Card Magic">
+                    <div class="card-body">
+                        <h5 class="card-title">Card Magic</h5>
+                        <p class="card-text">Learn the art of card tricks that will leave your audience spellbound.</p>
+                        <a href="tricks.html" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
             </div>
-			
-			<div class="col-md-6">
-                <a href="reveal.html"><img src="magic.jpg" class="img-fluid" alt="Magic Image"></a>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="coinmagic.jpg" class="card-img-top" alt="Coin Vanish">
+                    <div class="card-body">
+                        <h5 class="card-title">Coin Vanish</h5>
+                        <p class="card-text">Master the art of making coins disappear right before your eyes.</p>
+                        <a href="tricks.html" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="mentalism.jpg" class="card-img-top" alt="Mentalism">
+                    <div class="card-body">
+                        <h5 class="card-title">Mentalism</h5>
+                        <p class="card-text">Explore the secrets of mind reading and controlling others with ease.</p>
+                        <a href="tricks.html" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
     <footer class="bg-dark text-white text-center py-3">
-        <p>© 2024 krishofspades --Krish Jariwala</p>
+        <p>© 2024 Krish Of Spades -- Krish Jariwala</p>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
